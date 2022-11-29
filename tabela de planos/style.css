@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9e9e9;
+}
+
+.titulo-planos {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.planos-acesso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    margin-right: 4.5em;
+}
+
+.acesso-link {
+    box-shadow: 4px 4px 7.68266px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1em 2em;
+    margin: 0 1em;
+    background-color: #FFFFFF;
+}
+
+.cartao-titulo {
+    font-size: 30px;
+}
+
+.cartao-preço {
+    font-size: 30px;
+    display: inline-block;
+}
+
+.cartao-texto {
+    font-size: 17px;
+    color: #484848;
+    font-weight: 400;
+}
+
+.cartao-botao {
+    background-color: #23C281;
+    border: none;
+    width: 269px;
+    padding: 0.5em;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-top: 3em;
+    transition: 0.3s;
+}
+
+.cartao-botao:hover {
+    background-color: #5ac497;
+    color: #000000;
+}
+
+@media screen and (max-width: 440px) {
+    .planos-acesso {
+        display: inline;
+    }
+
+    .acesso-link {
+        margin: 1.5em 2em;
+        margin-left: 2em;
+    }
+
+    .cartao-botao {
+        width: 100%;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
